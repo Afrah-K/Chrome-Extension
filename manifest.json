@@ -1,0 +1,31 @@
+{
+    "name": "Snip & Clip",
+    "description": "The perfect tool to screenshot and take notes",
+    "background": {
+        "service_worker": "background.js"
+      },
+    "version": "0.0.1",
+    "manifest_version": 3,
+    "action": {
+        "default_popup": "popup.html",
+        "default_icon": "./logo google extension.png",
+        "default_title": "popup is here"
+    },
+    "icons": {
+        "128": "./logo google extension.png"
+    },
+    "permissions": [
+        "activeTab",
+        "contextMenus",
+        "storage",
+        "tabs",
+        "webNavigation"
+      ],
+    "content_script": [{
+
+        "matches": [
+            "<all urls>"
+        ],
+        "js": ["content.js"]
+    }]
+}
