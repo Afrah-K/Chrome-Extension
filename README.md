@@ -1,3 +1,4 @@
+
 # Chrome-Extension
 I created a note taking extension that will allow you to take small notes and delete them when the use is done.
 
@@ -9,4 +10,5 @@ I created a note taking extension that will allow you to take small notes and de
 
 <strong>Step 4 </strong>Delete it when your use of the note is done
 
-<center> ![snipandclip google extension](https://user-images.githubusercontent.com/79169064/213871083-7a2784c5-a5e1-437e-95c6-7662153758ac.gif) </center>
+![snip clip](https://user-images.githubusercontent.com/79169064/213871784-ebf7844f-afb9-485f-b4df-256743c09f26.gif)
+
